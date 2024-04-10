@@ -1,4 +1,4 @@
-def calcular_area_rectangulo(base, altura):
+def hallar_area_rectangulo(base, altura):
     return base * altura
 
 def calcular_area_triangulo(base, altura):
@@ -6,7 +6,7 @@ def calcular_area_triangulo(base, altura):
 
 def principal():
     rectangulo = [4, 6]
-    area_rectangulo = calcular_area_rectangulo(*rectangulo)
+    area_rectangulo = hallar_area_rectangulo(*rectangulo)
     print("Área del rectángulo:", area_rectangulo)
 
     triangulo = [5, 8]
